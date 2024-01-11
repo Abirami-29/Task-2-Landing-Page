@@ -1,0 +1,405 @@
+.Main
+{
+    background-image: url(Main.png);
+    background-size: 100%;
+    height: 760px;
+}
+.Bg
+{
+    background-image: url(Bg.png);
+    background-size: 100%;
+}
+.Topic
+{
+    display: flex;
+    
+}
+#Logo
+{
+   height: 100px;
+   width: 100px; 
+   margin-left: 30px;
+   margin-top: 20px;
+   
+}
+#Name1
+{
+    margin-top: 30px;
+    height: 100px;
+    width: 200px;
+    margin-left: 10px;
+}
+nav
+{ 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 790px;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+nav ul li a
+{
+    color: black;
+    font-size: 18px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    cursor: pointer;
+} 
+nav ul li a::after
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    top: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color:black;
+    transition: width 0.5s;
+}
+nav ul li a:hover::after
+{
+    width: 100% ;
+}
+.Home p
+{
+    font-size: 35px;
+    font-family: 'Carattere', cursive;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 800px;
+    
+}
+#Paw
+{
+    float: right;
+
+}
+.Bg1
+{
+    background-image: url(Menu.png);
+    background-size: 100%;
+}
+#Menu
+{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 780px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.Menu
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 15%;
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+}
+.Coffee
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.Coffee h5
+{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Coffee h3
+{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.Cof
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ul.Bul
+{
+    list-style-type: none;
+}
+.Hot
+{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    margin-left: 0px;
+}
+.Cold
+{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    margin-right: 40px;
+}
+.Sand
+{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    margin-right: 80px;
+}
+.Wrap
+{
+    font-family: 'Handlee', cursive;
+    font-size: 25px;
+    margin-right: 50px;
+}
+#Drink
+{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#Ice
+{
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    margin-left: 100px;
+}
+.Icecream
+{
+    margin-left: 80px;
+}
+#Pet
+{
+    margin-left: 600px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 0px;
+}
+#Food
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Photos
+{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 770px;
+    margin-top: 90px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+#Pics
+{
+    height: 1200px;
+    width: 1500px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    border: 2px solid black;
+}
+#Review
+{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 770px;
+    margin-top: 90px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: wheat;
+}
+.Rev
+{
+    display: flex;
+    padding: 0 150px;
+    margin-top: 100px;
+}
+.Rev1
+{
+    display: flex;
+    padding: 0 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#star
+{
+    height: 20px;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.R1
+{
+    border: 2px solid #eaeaea;
+    background-color: #ffffff;
+    width: 500px;
+    height: 450px;
+
+}
+.R2
+{
+    border: 2px solid #eaeaea;
+    background-color: #ffffff;
+    margin-left: 100px;
+    width: 500px;
+    height: 450px;
+}
+.R3
+{
+    border: 2px solid #eaeaea;
+    background-color: #ffffff;
+    margin-left: 100px;
+    width: 500px;
+    height: 450px;
+}
+.R1:hover
+{
+    box-shadow: 0px 4px 12px 0px #ccc;
+}
+.R2:hover
+{
+    box-shadow: 0px 4px 12px 0px #ccc;
+}
+.R3:hover
+{
+    box-shadow: 0px 4px 12px 0px #ccc;
+}
+.Rev h4
+{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.Rev p
+{
+    font-family: 'Dosis', sans-serif;
+  
+    font-size: 20px;
+    padding: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.Rev1 h4
+{
+    font-family: 'Roboto Slab', serif;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.Rev1 p
+{
+    font-family: 'Dosis', sans-serif;
+  
+    font-size: 20px;
+    padding: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.Loca h1
+{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: red;
+}
+.Loca p
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+}
+#Lo
+{
+    height: 40px;
+    padding-right: 10px;
+}
+.Lo
+{
+    background-image: url(Loc.png);
+    background-size: 100%;
+    padding-bottom: 35px;
+}
+#Ch
+{
+    padding-left: 60px;
+    margin-top: 0px;
+}
+#Contact
+{
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 770px;
+    margin-top: 90px;
+    padding-top: 50px;
+    font-size: 50px;
+    color: black;
+}
+#Mail
+{
+    height: 30px;
+    width: 45px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+#Phone
+{
+    height: 35px;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+#Insta
+{
+    height: 50px;
+    width: 45px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+#Face
+{
+    height: 35px;
+    width: 40px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+.Top
+{
+    margin-left: 750px;
+    position:fixed;
+    bottom:20px;
+    text-decoration: none;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    padding: 10px 40px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    opacity: 0.3;
+}
+.Top:hover
+{
+    opacity: 10;
+}
+.R
+{
+    background-image: url(Coffee\ Cafe\ Aesthetic\ Instagram\ Post.png);
+    background-size: 100%;
+
+}
